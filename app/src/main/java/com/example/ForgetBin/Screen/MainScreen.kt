@@ -279,7 +279,7 @@ fun ItemList(
     vibrator: Vibrator,
 ) {
 
-    val changeColor = remember { mutableStateOf(Color.White) }
+
     Box(
         modifier = Modifier
             .padding(top = 15.dp)
@@ -303,15 +303,12 @@ fun ItemList(
                     )
                 )
                 navController.navigate(route = "deleteIcon/$id") {}
-                changeColor.value = Color.Cyan
 
             }
 
 
             )
             .border(1.dp, Color(0xCC717171), RoundedCornerShape(15.dp))
-            .background(changeColor.value),
-
         ) {
 
         Column(
