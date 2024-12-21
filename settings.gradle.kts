@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Keep Thoughts"
+rootProject.name = "Forget Hub"
 include(":app")
  

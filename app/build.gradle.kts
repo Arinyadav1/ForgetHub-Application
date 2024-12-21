@@ -6,15 +6,17 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ForgetBin"
-    compileSdk = 34
+    namespace = "com.example.forget_hub"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.ForgetBin"
+        applicationId = "com.example.forget_hub"
         minSdk = 26
-        targetSdk = 34
+        //noinspection EditedTargetSdkVersion
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
+
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -29,6 +31,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
     compileOptions {
@@ -51,6 +54,12 @@ android {
     }
 }
 
+//configurations.all {
+//    resolutionStrategy {
+//        force ("androidx.test.espresso:espresso-core:3.5.0")
+//    }
+//}
+
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -62,6 +71,8 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.runtime.livedata)
+    implementation(libs.androidx.ui.test.android)
+    implementation(libs.generativeai)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -69,10 +80,10 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(libs.material3)
 
 
     val room_version = "2.6.1"
-
     implementation("androidx.room:room-runtime:$room_version")
     kapt("androidx.room:room-compiler:$room_version")
     implementation("androidx.room:room-ktx:$room_version")
@@ -81,7 +92,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
 
-    val lifecycle_version = "2.8.6"
+    val lifecycle_version = "2.8.7"
     // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
     // ViewModel utilities for Compose
@@ -90,5 +101,9 @@ dependencies {
     //navigation
     implementation("androidx.navigation:navigation-compose:2.8.2")
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+
+    androidTestImplementation(libs.androidx.espresso.core)
+
+
 
 }
