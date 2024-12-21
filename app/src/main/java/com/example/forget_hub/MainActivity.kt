@@ -1,4 +1,4 @@
-package com.example.ForgetBin
+package com.example.forget_hub
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -6,7 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.example.ForgetBin.Navigation.App
+import com.example.forget_hub.navigation.App
 
 class MainActivity : ComponentActivity() {
     @SuppressLint("CoroutineCreationDuringComposition", "UnusedMaterial3ScaffoldPaddingParameter")
@@ -19,7 +19,6 @@ class MainActivity : ComponentActivity() {
             )
         )
         setContent {
-
             App()
         }
 

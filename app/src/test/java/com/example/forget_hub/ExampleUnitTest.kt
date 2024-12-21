@@ -1,4 +1,4 @@
-package com.example.ForgetBin
+package com.example.forget_hub
 
 import org.junit.Test
 

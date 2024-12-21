@@ -1,4 +1,4 @@
-package com.example.ForgetBin.ui.theme
+package com.example.forget_hub.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

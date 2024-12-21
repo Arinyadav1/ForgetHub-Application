@@ -1,4 +1,4 @@
-package com.example.ForgetBin
+package com.example.forget_hub
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
