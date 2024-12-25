@@ -103,6 +103,10 @@ This background image is not staying same every time it will chanage evry time w
 <il>
 
 ## Download Release App
+<a href="https://github.com/Arinyadav1/ForgetHub-Application/releases/tag/v1.0.0">ForgetHub v1.0.0</a>
 
-
+## Make Me More Better 
+<p>You can say me what you want to say me. You can find my mistakes and share them with me so that I can correct my mistakes and improve myself for the future.</p>
+<a href="https://www.linkedin.com/in/arin-yadav-040785245/">LinkedIn</a>
+<a href="mailto : arinyadav98@gmail.com">Gmail</a>
 
