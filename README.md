@@ -108,5 +108,8 @@ This background image is not staying same every time it will chanage evry time w
 ## Make Me More Better 
 <p>You can say me what you want to say me. You can find my mistakes and share them with me so that I can correct my mistakes and improve myself for the future.</p>
 <a href="https://www.linkedin.com/in/arin-yadav-040785245/">LinkedIn</a>
-<a href="mailto : arinyadav98@gmail.com">Gmail</a>
+<br>
+<br>
+<a href="mailto:arinyadav98@gmail.com">Gmail</a>
+<hr>
 
