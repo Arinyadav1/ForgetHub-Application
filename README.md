@@ -14,38 +14,9 @@ it build my fundamental strong so that in future I will make a unique app which 
 
 
 ## Gallery
-<div align="center">
-<table>
-  <tr>
-    <td align="center" >
-        <img src="https://github.com/resourcesManager/Images/blob/65a3fb569f098dae2a16ff996ca115fd8248f50f/initial%20launch%20app%20screen.svg"  />
-      <br>
-    </td>
-    <td align="center" >
-      <a>
-        <img src="https://github.com/resourcesManager/Images/blob/65a3fb569f098dae2a16ff996ca115fd8248f50f/note%20screen%20with%20data.svg"/>
-      </a>
-      <br>
-    </td>
-    <td align="center" >
-        <img src="https://github.com/resourcesManager/Images/blob/65a3fb569f098dae2a16ff996ca115fd8248f50f/home%20screen.svg" />
-      <br>
-    </td>
-  </tr>
-  <tr>
-     <td align="center" >
-        <img src="https://github.com/resourcesManager/Images/blob/65a3fb569f098dae2a16ff996ca115fd8248f50f/miss%20back%20screen.svg"/>
-      <br>
-    </td>
-    <td align="center" >
-        <img src="https://github.com/resourcesManager/Images/blob/65a3fb569f098dae2a16ff996ca115fd8248f50f/hold%20item%20screen.svg" />
-      <br>
-    </td>
-       <td align="center" >
-        <img src="https://github.com/resourcesManager/Images/blob/65a3fb569f098dae2a16ff996ca115fd8248f50f/navigation%20menu%20screen.svg"/>
-      <br>
-    </td>
-  </tr>
-</table>
-</div>
-</table>
+| Left-aligned | Center-aligned | Right-aligned | Right-aligned | 
+| :---:        |     :---:      |         :---: |         :---: |
+| <img src="https://github.com/resourcesManager/Images/blob/65a3fb569f098dae2a16ff996ca115fd8248f50f/initial%20launch%20app%20screen.svg"  />   |  <img src="https://github.com/resourcesManager/Images/blob/65a3fb569f098dae2a16ff996ca115fd8248f50f/note%20screen%20with%20data.svg"/>     |  <img src="https://github.com/resourcesManager/Images/blob/65a3fb569f098dae2a16ff996ca115fd8248f50f/home%20screen.svg" />   ||
+|  <img src="https://github.com/resourcesManager/Images/blob/f7ffe148baa9a288f9a57924e33aa482a0f83567/saved%20data%20edit%20screen.svg"/>     | <img src="https://github.com/resourcesManager/Images/blob/65a3fb569f098dae2a16ff996ca115fd8248f50f/hold%20item%20screen.svg" />       | <img src="https://github.com/resourcesManager/Images/blob/65a3fb569f098dae2a16ff996ca115fd8248f50f/navigation%20menu%20screen.svg"/>   |<img src="https://github.com/resourcesManager/Images/blob/ea0895c949c7bccae6fc7746275c25e4d8dd37b0/delete%20Alert%20Dialog.svg"/> |
+
+
