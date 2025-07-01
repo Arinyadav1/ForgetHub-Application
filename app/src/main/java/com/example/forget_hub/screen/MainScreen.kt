@@ -629,7 +629,7 @@ fun NavigationDrawer(
             ) {
                 Box(
                     modifier = Modifier
-                        .padding(top = 22.dp)
+                        .padding(top = 3.5.dp)
                         .fillMaxHeight(1f)
                 ) {
                     Column(
