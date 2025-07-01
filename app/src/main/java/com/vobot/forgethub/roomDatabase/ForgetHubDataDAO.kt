@@ -1,4 +1,4 @@
-package com.example.forget_hub.roomDatabase
+package com.vobot.forgethub.roomDatabase
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao

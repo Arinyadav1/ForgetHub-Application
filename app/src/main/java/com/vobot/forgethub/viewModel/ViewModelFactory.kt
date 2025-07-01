@@ -1,9 +1,9 @@
-package com.example.forget_hub.viewModel
+package com.vobot.forgethub.viewModel
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.forget_hub.reprository.DataRepo
+import com.vobot.forgethub.reprository.DataRepo
 
 @Suppress("UNCHECKED_CAST")
 class DataViewModelFactory(private val repository: DataRepo, private val context: Context) :

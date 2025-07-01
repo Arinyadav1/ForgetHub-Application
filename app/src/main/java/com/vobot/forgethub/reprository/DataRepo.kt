@@ -1,9 +1,9 @@
-package com.example.forget_hub.reprository
+package com.vobot.forgethub.reprository
 
 import androidx.lifecycle.LiveData
-import com.example.forget_hub.model.DataOfUi
-import com.example.forget_hub.roomDatabase.ForgetHubData
-import com.example.forget_hub.roomDatabase.ForgetHubDataDAO
+import com.vobot.forgethub.model.DataOfUi
+import com.vobot.forgethub.roomDatabase.ForgetHubData
+import com.vobot.forgethub.roomDatabase.ForgetHubDataDAO
 
 class DataRepo(private val forgetHubDataDAO: ForgetHubDataDAO, dataOfUi: DataOfUi) {
 

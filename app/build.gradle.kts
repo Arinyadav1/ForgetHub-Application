@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.forget_hub"
+    namespace = "com.vobot.forgethub"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.forget_hub"
+        applicationId = "com.vobot.forgethub"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

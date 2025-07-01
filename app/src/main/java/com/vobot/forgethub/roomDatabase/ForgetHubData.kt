@@ -1,4 +1,4 @@
-package com.example.forget_hub.roomDatabase
+package com.vobot.forgethub.roomDatabase
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

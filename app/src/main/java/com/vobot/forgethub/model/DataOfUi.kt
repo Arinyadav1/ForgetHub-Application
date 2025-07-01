@@ -1,7 +1,7 @@
-package com.example.forget_hub.model
+package com.vobot.forgethub.model
 
 import androidx.compose.ui.graphics.Color
-import com.example.forget_hub.R
+import com.vobot.forgethub.R
 
 class DataOfUi {
 

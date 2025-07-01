@@ -1,4 +1,4 @@
-package com.example.forget_hub
+package com.vobot.forgethub
 
 import org.junit.Test
 

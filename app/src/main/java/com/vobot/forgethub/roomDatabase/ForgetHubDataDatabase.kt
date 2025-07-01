@@ -1,4 +1,4 @@
-package com.example.forget_hub.roomDatabase
+package com.vobot.forgethub.roomDatabase
 
 import android.content.Context
 import androidx.room.Database

@@ -1,4 +1,4 @@
-package com.example.forget_hub.navigation
+package com.vobot.forgethub.navigation
 
 import android.annotation.SuppressLint
 import androidx.compose.animation.AnimatedContentTransitionScope
@@ -17,13 +17,13 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.forget_hub.model.DataOfUi
-import com.example.forget_hub.screen.MainScreen
-import com.example.forget_hub.screen.NoteScreen
-import com.example.forget_hub.viewModel.DataViewModel
-import com.example.forget_hub.viewModel.DataViewModelFactory
-import com.example.forget_hub.roomDatabase.ForgetHubDataDatabase
-import com.example.forget_hub.reprository.DataRepo
+import com.vobot.forgethub.model.DataOfUi
+import com.vobot.forgethub.screen.MainScreen
+import com.vobot.forgethub.screen.NoteScreen
+import com.vobot.forgethub.viewModel.DataViewModel
+import com.vobot.forgethub.viewModel.DataViewModelFactory
+import com.vobot.forgethub.roomDatabase.ForgetHubDataDatabase
+import com.vobot.forgethub.reprository.DataRepo
 
 
 @SuppressLint("UnrememberedMutableState")

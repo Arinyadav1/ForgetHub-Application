@@ -1,4 +1,4 @@
-package com.example.forget_hub.screen
+package com.vobot.forgethub.screen
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -65,9 +65,9 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.example.forget_hub.R
-import com.example.forget_hub.viewModel.DataViewModel
-import com.example.forget_hub.roomDatabase.ForgetHubData
+import com.vobot.forgethub.R
+import com.vobot.forgethub.viewModel.DataViewModel
+import com.vobot.forgethub.roomDatabase.ForgetHubData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
