@@ -25,11 +25,15 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.statusBars
 import androidx.compose.foundation.lazy.staggeredgrid.LazyVerticalStaggeredGrid
 import androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridCells
 import androidx.compose.foundation.lazy.staggeredgrid.items
@@ -141,7 +145,8 @@ fun MainScreen(
     ) {
         Column(
             modifier = Modifier
-                .padding(top = 50.dp, start = 5.dp, end = 5.dp)
+                .padding(top = WindowInsets.statusBars.asPaddingValues().calculateTopPadding(),
+                    start = 5.dp, end = 5.dp)
                 .fillMaxSize(1f)
                 .clip(
                     RoundedCornerShape(
@@ -627,18 +632,13 @@ fun NavigationDrawer(
                 modifier = Modifier.background(Transparent),
                 drawerContainerColor = Color.White
             ) {
-                Box(
-                    modifier = Modifier
-                        .padding(top = 3.5.dp)
-                        .fillMaxHeight(1f)
-                ) {
+                Box{
                     Column(
-
+                        modifier = Modifier.padding(top = 7.5.dp)
                     ) {
                         Row(
                             modifier = Modifier.padding(start = 15.dp),
                             horizontalArrangement = Arrangement.Center,
-                            verticalAlignment = Alignment.CenterVertically
                         ) {
                             Image(
                                 modifier = Modifier
@@ -673,7 +673,7 @@ fun NavigationDrawer(
                                 fontSize = 25.sp,
                                 color = Color.Black,
                                 fontWeight = FontWeight(300),
-                                modifier = Modifier.padding(start = 40.dp)
+                                modifier = Modifier.padding(start = 40.dp, top = 2.dp)
                             )
 
                         }
